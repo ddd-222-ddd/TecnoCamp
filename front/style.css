@@ -1,43 +1,41 @@
-:root{
+:root {
     --primary-color: #141414;
     --secondary-color: #A4A4A4;
-    --terciary-color: #FFFFFF;
+    --tertiary-color: #FFFFFF;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: "Gill Sans", sans-serif;
 }
 
-.sec1{
+.sec1 {
     background-color: var(--primary-color);
     height: 100vh;
-    color: var(--terciary-color);
-
-
+    color: var(--tertiary-color);
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
 }
 
-.group1{
+.group1 {
     display: flex;
     flex-direction: column;
     padding: 20px;
 }
 
-.group1 h2{
+.group1 h2 {
     padding: 20px;
 }
 
-.group1 a{
+.group1 a {
     padding: 10px;
     margin: 15px;
 }
 
-.info{
+.info {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -48,17 +46,18 @@
     margin-bottom: 30px;
     margin-top: 80px;
 }
-.info p{
+
+.info p {
     font-size: 36px;
     color: var(--secondary-color);
 }
 
-a{
- text-decoration: none;
- color: var(--secondary-color);
+a {
+    text-decoration: none;
+    color: var(--secondary-color);
 }
 
-.table{
+.table {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -71,29 +70,30 @@ a{
     background-color: var(--secondary-color);
     border-radius: 10px;
 }
-.table h2{
+
+.table h2 {
     border-bottom: 2px solid;
     margin: 10px;
     width: 500px;
 }
 
-.sec2{
+.sec2 {
     background-color: var(--primary-color);
     height: 700px;
-    color: var(--terciary-color);
+    color: var(--tertiary-color);
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.sec2 h1{
+.sec2 h1 {
     padding: 20px;
     margin-top: 30px;
-    color: var(--terciary-color);
+    color: var(--tertiary-color);
     font-size: 36px;
 }
 
-.cards{
+.cards {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -101,7 +101,7 @@ a{
     margin-top: 30px;
 }
 
-.card{
+.card {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -113,28 +113,27 @@ a{
     border-radius: 10px;
 }
 
-.card h2{
+.card h2 {
     font-size: 36px;
     margin-bottom: 10px;
 }
-.card p{
+
+.card p {
     font-size: 30px;
     color: var(--secondary-color);
 }
 
-.sec3{
+.sec3 {
     background-color: var(--primary-color);
     height: 700px;
-    color: var(--terciary-color);
-
-
+    color: var(--tertiary-color);
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
 }
 
-.info1{
+.info1 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -144,8 +143,7 @@ a{
     padding: 20px;
 }
 
-
-.form{
+.form {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -158,11 +156,12 @@ a{
     font-size: 22px;
 }
 
-.form input{
+.form input {
     border-radius: 5px;
     padding: 5px;
 }
-.btn{
+
+.btn {
     font-size: 12px;
     width: 200px;
     height: 40px;
@@ -170,30 +169,30 @@ a{
     border-radius: 15px;
     cursor: pointer;
     margin: 10px;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   background-color: var(--secondary-color);
-   color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--secondary-color);
+    color: #000;
 }
 
-.sec4{
+.sec4 {
     background-color: var(--primary-color);
     height: 700px;
-    color: var(--terciary-color);
+    color: var(--tertiary-color);
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
 }
 
-.sec4 p{
+.sec4 p {
     font-size: 29px;
     width: 570px;
     height: 300px;
 }
 
-img{
+img {
     width: 500px;
 }
 
@@ -202,4 +201,43 @@ footer {
     color: #fff;
     text-align: center;
     padding: 20px;
+}
+
+/* Media Query for Smaller Screens */
+@media (max-width: 768px) {
+    .sec1 {
+        flex-direction: column;
+        text-align: center;
+    }
+    .info {
+        width: 90%;
+        font-size: 36px;
+    }
+    .table {
+        width: 90%;
+    }
+    .sec2 h1 {
+        font-size: 24px;
+    }
+    .card {
+        width: 90%;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .info1 {
+        width: 90%;
+        font-size: 24px;
+    }
+    .form {
+        width: 90%;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .sec4 p {
+        width: 90%;
+        font-size: 24px;
+    }
+    img {
+        width: 90%;
+    }
 }
