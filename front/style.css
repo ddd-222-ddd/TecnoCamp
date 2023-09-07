@@ -187,6 +187,7 @@ a {
 }
 
 .sec4 p {
+    margin-top: 20px;
     font-size: 29px;
     width: 570px;
     height: 300px;
@@ -203,41 +204,58 @@ footer {
     padding: 20px;
 }
 
-/* Media Query for Smaller Screens */
-@media (max-width: 768px) {
+/* ... seu código CSS anterior ... */
+
+/* Media Query para Telas Menores */
+@media (max-width: 716px) {
     .sec1 {
+        height: 100vh;
         flex-direction: column;
-        text-align: center;
+        align-items: center;
+        justify-content: center;
     }
-    .info {
-        width: 90%;
-        font-size: 36px;
+    .sec2{
+        height: 100vh;
+        padding: 20px;
     }
-    .table {
-        width: 90%;
+    .sec3 {
+        height: 100vh;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
     }
-    .sec2 h1 {
-        font-size: 24px;
-    }
-    .card {
-        width: 90%;
-        margin-left: 0;
-        margin-top: 20px;
+    
+    .sec4 {
+        height: 100vh;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
     .info1 {
-        width: 90%;
-        font-size: 24px;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        
+        
     }
-    .form {
-        width: 90%;
-        margin-left: 0;
-        margin-top: 20px;
-    }
-    .sec4 p {
-        width: 90%;
-        font-size: 24px;
-    }
-    img {
-        width: 90%;
-    }
+
+.form {
+    align-items: center;
 }
+
+.cards {
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 0;
+}
+
+.card{
+    flex-direction: column;
+    align-items: center;
+}
+    
+}
+
