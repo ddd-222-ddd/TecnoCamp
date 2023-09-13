@@ -101,7 +101,7 @@ a {
     margin-top: 30px;
 }
 
-.card {
+.cont {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -113,14 +113,19 @@ a {
     border-radius: 10px;
 }
 
-.card h2 {
+.card:hover{
+    transform: translateY(-15px); 
+}
+
+.cont h2 {
     font-size: 36px;
     margin-bottom: 10px;
 }
 
-.card p {
+.cont p {
     font-size: 30px;
     color: var(--secondary-color);
+    text-align: justify;
 }
 
 .sec3 {
@@ -141,6 +146,7 @@ a {
     width: 570px;
     font-size: 35px;
     padding: 20px;
+    text-align: justify;
 }
 
 .form {
