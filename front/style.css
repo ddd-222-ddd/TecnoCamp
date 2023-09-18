@@ -1,7 +1,9 @@
 :root {
-    --primary-color: #141414;
+    --primary-color:  #003d77;
     --secondary-color: #A4A4A4;
     --tertiary-color: #FFFFFF;
+    --outra-color: #024c9e;
+    --yellow-color: #f8ca08;
 }
 
 * {
@@ -33,6 +35,9 @@
 .group1 a {
     padding: 10px;
     margin: 15px;
+    color: var(--yellow-color);
+    background-color: var(--outra-color);
+    font-size: 18px;
 }
 
 .info {
@@ -49,12 +54,11 @@
 
 .info p {
     font-size: 36px;
-    color: var(--secondary-color);
+    color: var(--tertiary-color);
 }
 
 a {
     text-decoration: none;
-    color: var(--secondary-color);
 }
 
 .table {
@@ -67,7 +71,7 @@ a {
     height: 550px;
     border: 1px solid;
     color: #000;
-    background-color: var(--secondary-color);
+    background-color: var(--tertiary-color);
     border-radius: 10px;
 }
 
@@ -75,6 +79,7 @@ a {
     border-bottom: 2px solid;
     margin: 10px;
     width: 500px;
+    color: #3f96e1;
 }
 
 .sec2 {
@@ -89,7 +94,7 @@ a {
 .sec2 h1 {
     padding: 20px;
     margin-top: 30px;
-    color: var(--tertiary-color);
+    color: var(--yellow-color);
     font-size: 36px;
 }
 
@@ -185,7 +190,7 @@ a {
 .sec4 {
     background-color: var(--primary-color);
     height: 700px;
-    color: var(--tertiary-color);
+    color: var(--yellow-color);
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -197,6 +202,7 @@ a {
     font-size: 29px;
     width: 570px;
     height: 300px;
+    color: var(--tertiary-color);
 }
 
 img {
