@@ -106,70 +106,31 @@ a {
     margin-top: 30px;
 }
 
-.cont {
+.card {
     display: flex;
     flex-direction: column;
     justify-content: center;
     border: 1px solid #fff;
     width: 362px;
-    height: 366px;
+    height: 300px;
     padding: 20px;
     margin-left: 40px;
     border-radius: 10px;
 }
 
 .card:hover{
-    transform: translateY(-15px); 
+    transform: translateY(-10px); 
 }
 
-.cont h2 {
+.card h2 {
     font-size: 36px;
     margin-bottom: 10px;
 }
 
-.cont p {
+.card p {
     font-size: 30px;
     color: var(--secondary-color);
     text-align: justify;
-}
-
-.sec3 {
-    background-color: var(--primary-color);
-    height: 700px;
-    color: var(--tertiary-color);
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.info1 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    width: 570px;
-    font-size: 35px;
-    padding: 20px;
-    text-align: justify;
-}
-
-.form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    border: 1px solid #fff;
-    width: 550px;
-    height: 500px;
-    padding: 20px;
-    margin-left: 40px;
-    border-radius: 10px;
-    font-size: 22px;
-}
-
-.form input {
-    border-radius: 5px;
-    padding: 5px;
 }
 
 .btn {
@@ -188,8 +149,8 @@ a {
 }
 
 .sec4 {
-    background-color: var(--primary-color);
-    height: 700px;
+    background-color: var(--outra-color);
+    height: 80vh;
     color: var(--yellow-color);
     display: flex;
     flex-direction: row;
@@ -202,7 +163,7 @@ a {
     font-size: 29px;
     width: 570px;
     height: 300px;
-    color: var(--tertiary-color);
+    color: #fff;
 }
 
 img {
@@ -230,13 +191,6 @@ footer {
         height: 100vh;
         padding: 20px;
     }
-    .sec3 {
-        height: 100vh;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        padding: 20px;
-    }
     
     .sec4 {
         height: 100vh;
@@ -244,30 +198,23 @@ footer {
         align-items: center;
         justify-content: center;
     }
-    .info1 {
+    .cards {
         flex-direction: column;
         align-items: center;
-        padding: 20px;
-        
-        
+        flex-wrap: nowrap;
+        justify-content: center;
+        margin-top: 0;
+        height: 100vh;
     }
 
-.form {
-    align-items: center;
-}
-
-.cards {
-    flex-direction: column;
-    align-items: center;
-    flex-wrap: nowrap;
-    justify-content: center;
-    margin-top: 0;
-}
-
-.card{
-    flex-direction: column;
-    align-items: center;
-}
-    
+    .card{
+        flex-direction: column;
+        align-items: center;
+        margin: 5px;
+        height: 230px;
+    }
+    footer{
+        padding: 0;
+    }
 }
 
