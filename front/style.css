@@ -228,6 +228,15 @@ footer {
         margin: 5px;
         height: 230px;
     }
+
+    .sec4 p{
+        margin-bottom: 80px;
+        width: 500px;
+    }
+
+    img{
+        width: 400px;
+    }
     footer{
         padding: 0;
     }
