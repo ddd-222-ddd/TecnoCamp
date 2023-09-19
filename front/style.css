@@ -87,7 +87,6 @@ a {
     width: 500px;
     color: #3f96e1;
 }
-
 .sec2 {
     background-color: var(--primary-color);
     height: 700px;
@@ -136,7 +135,6 @@ a {
 .card p {
     font-size: 30px;
     color: var(--secondary-color);
-    text-align: justify;
 }
 
 .btn {
@@ -193,10 +191,6 @@ footer {
         justify-content: center;
         width: 100%;
     }
-    .sec2{
-        height: 100vh;
-        
-    }
     .table{
         width: 300px;
     }
@@ -236,23 +230,36 @@ footer {
     .table h2{
         width: 70%;
     }
-    .cards {
-        flex-direction: column;
-        align-items: center;
-        flex-wrap: nowrap;
-        justify-content: center;
-        margin-top: 0;
-    }
-
-    .card{
-        flex-direction: column;
-        align-items: center;
-        margin: 5px;
-        width: 300px;
-    }
     .img{
         display: none;
     }
+    .sec2 {
+        text-align: center;
+        padding: 20px;
+        overflow-y: scroll;
+    }
+
+    .cards {
+        display: flex;
+        justify-content: center;
+    }
+
+    .card {
+        flex: 0 0 300px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        margin:10px;
+        width: 300px;
+        height: 330px;
+    }
+
+    .cont {
+        padding: 20px;
+    }
+
+    h2 {
+        margin-top: 0;
+    }
+
     footer{
         padding: 0;
     }
