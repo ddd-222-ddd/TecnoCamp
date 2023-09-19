@@ -193,6 +193,9 @@ footer {
         height: 100vh;
         
     }
+    .table{
+        width: 500px;
+    }
     
     .sec4 {
         width: 100vw;
