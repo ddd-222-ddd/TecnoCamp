@@ -415,6 +415,7 @@ footer {
         color: #000;
         background-color: var(--tertiary-color);
         border-radius: 10px;
+        margin-top: 10px;
     }
     
     .table2 h2 {
@@ -436,7 +437,7 @@ footer {
     /* Botão para fechar o modal */
     .close {
         cursor: pointer;
-        color: #fff;
+        color: #000;
         float: right;
         font-size: 49px;
         font-weight: bold;
