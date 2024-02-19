@@ -373,7 +373,7 @@ footer {
     }
     .btns{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
     }
     .btn {
         width: 120px;
