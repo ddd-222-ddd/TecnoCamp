@@ -33,6 +33,12 @@
     flex-direction: column;
     padding: 20px;
 }
+.group14{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
 
 .group1 h2 {
     padding: 20px;
@@ -79,7 +85,7 @@ a {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    padding: 20px;
+    padding: 30px;
     width: 530px;
     height: 550px;
     border: 1px solid;
@@ -160,7 +166,7 @@ a {
 }
 
 .sec4 {
-    background-color: var(--outra-color);
+    background-color: var(--primary-color);
     height: 80vh;
     color: var(--yellow-color);
     display: flex;
@@ -174,6 +180,18 @@ a {
     font-size: 29px;
     width: 570px;
     height: 300px;
+    color: #fff;
+}
+.sec7 {
+    background-color: var(--outra-color);
+    height: 70vh;
+    color: var(--yellow-color);
+    text-align: justify;
+}
+
+.sec7 p {
+    margin-top: 20px;
+    font-size: 30px;
     color: #fff;
 }
 
@@ -271,6 +289,7 @@ footer {
     display: flex;
     align-items: center;
 }
+
 
 @media (max-width: 980px) {
     .sec1 {
