@@ -120,7 +120,7 @@ a {
 .cards {
     display: flex;
     flex-direction: row;
-    
+    flex-wrap: wrap;
     align-items: center;
     margin-top: 30px;
 }
@@ -186,7 +186,7 @@ a {
 }
 .sec7 {
     background-color: var(--outra-color);
-    height: 70vh;
+    height: 80vh;
     color: var(--yellow-color);
     text-align: justify;
 }
