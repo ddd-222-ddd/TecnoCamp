@@ -185,6 +185,9 @@ a {
     color: #fff;
 }
 .sec7 {
+    display: flex;
+    align-items: center;
+    padding: 15px;
     background-color: var(--outra-color);
     height: 100vh;
     color: var(--yellow-color);
