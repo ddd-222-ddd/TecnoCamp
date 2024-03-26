@@ -10,7 +10,7 @@ HTML
 
 CSS
 
-PHP
+Javascript
 
  
 
